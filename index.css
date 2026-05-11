@@ -31,7 +31,7 @@ header {
     margin-left: 50px;
     color: var(--white1);
     font-family: "Amatic SC", sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
     font-size: xx-large;
     display: flex;
@@ -42,19 +42,38 @@ header {
     margin-left: 5px;
 }
 
+.navigasi .logo a {
+    color: var(--white1);
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+}
+
 .navigasi .nav-link {
     margin-left: auto;
     margin-right: 100px;
     list-style: none;
     display: flex;
-    padding: 0px;
     font-family: "League Gothic", sans-serif;
     font-weight: 500;
     font-size: x-large;
-    justify-content: flex-end;
 }
 
-.navigasi .nav-link li {
-    padding-left: 70px;
+.navigasi .nav-link a{
     color: var(--white1);
+    text-decoration: none;
+    justify-items: center;
+  text-decoration: none;  
+  color: var(--white1);
+  padding: 5px 30px;      /* (Atas-Bawah Kiri-Kanan) */
+  margin-right: 20px;
+  transition-duration: 0.2s;
 }
+
+.navigasi .nav-link a:hover {
+    color: var(--red);
+    background-color: var(--bright-yellow);
+    border-radius: 15px;
+}
+
