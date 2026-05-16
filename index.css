@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 }
 
 /*header*/
@@ -22,10 +23,12 @@ header {
     min-width: 1080;
     max-height: 70px;
     background-color: var(--red);
+    z-index: 100;
 }
 
 .navigasi {
     display: flex;
+    min-width: 2000px;
 }
 
 .navigasi .logo {
@@ -179,6 +182,7 @@ header {
     background-color: var(--white2);
     max-height: 700px;
     display: flex;
+    z-index: 2;
 }
 
 .aboutme-left {
@@ -196,9 +200,10 @@ header {
 }
 
 .aboutme-left .aboutme-desc {
+    margin: -30px 0px -30px 0px;
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     max-width: 500px;
 }
 
@@ -217,7 +222,6 @@ header {
 
 .aboutme-right .from {
     justify-items: left;
-    z-index: 2;
     margin-top: -250px;
 }
 
@@ -240,7 +244,7 @@ header {
 }
 
 .aboutme-right .date h5 {
-    color: var(--black);
+    color: var(--white1);
     background-color: var(--red);
     border-radius: 20px 0px 0px 20px;
     font-family: "League Gothic", sans-serif;
@@ -302,8 +306,235 @@ header {
     background-color: var(--black);
     border-radius: 50px;
     font-family: "League Gothic", sans-serif;
-    font-size: 25px;
-    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 20px;
     text-align: center;
     width: 150px;
+}
+
+/*Skills*/
+
+.skills {
+    background-color: var(--red);
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-left {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.skills-left .interest {
+    justify-items: center;
+    margin-left: 40px;
+    margin-top: -60px;
+}
+
+.skills-left .interest .interest-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.skills-left .interest .interest-row h4 {
+    justify-self: center;
+    color: var(--bright-yellow);
+    background-color: var(--black);
+    border-radius: 50px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.skills-left .language {
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
+.skills-left .language h1 {
+    color: var(--bright-yellow);
+    background-color: var(--black);
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.skills-left .language .languages {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bright-yellow);
+    padding: 5px 0px;
+}
+
+.skills-left .language .languages .languages-content{
+    padding: 0px 20px;
+    justify-items: center;
+}
+
+.skills-left .language .languages .languages-content h3{
+    background-color: var(--black);
+    color: var(--bright-yellow);
+    font-family: "League Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 7.5px 50px;
+    border-radius: 50px;
+}
+
+.skills-left .language .languages .languages-content h4{
+    color: var(--black);
+    font-family: "Arimo", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -10px;
+    padding: 0px 50px;
+}
+
+.skills-right {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    align-items: end;
+}
+
+.skills-right .title {
+    margin-top: 75px;
+    margin-right: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.skills-right .title h1 {
+    background-color: var(--bright-yellow);
+    color: var(--red);
+    font-family: "League Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 120px;
+    padding: 1px 30px;
+}
+
+.skills-right .title .back-title h2{
+    -webkit-text-stroke: 2px var(--black);
+    color: var(--red);
+    font-family: "League Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 120px;
+    padding: 1px 30px;
+    margin-top: -100px;
+    z-index: -2;
+}
+
+.skills-right .software {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: -300px;
+    margin-top: 50px;
+}
+
+.skills-right .software h1 {
+    margin-top: -300px;
+    color: var(--red);
+    background-color: var(--white1);
+    padding: 1px 30px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+}
+
+.skills-right .software .softwares {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-right .software .softwares img {
+    background-color: var(--black);
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.skills-left .technical {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-left .technical h1 {
+    margin-right: auto;
+    margin-top: 150px;
+    color: var(--red);
+    background-color: var(--white1);
+    padding: 1px 30px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+    align-self: center;
+    justify-self: left;
+}
+
+.skills-left .technical .coding {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-left .technical .coding h2 {
+    color: var(--white1);
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+.skills-left .technical .coding .coding-skills {
+    color: var(--white1);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -215px;
+}
+
+.skills-left .technical .coding .coding-skills ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.skills-left .technical .coding-skills-bar {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.skills-left .technical .coding-skills-bar .html {
+    width: 300px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 32px;
+}
+.skills-left .technical .coding-skills-bar .css {
+    width: 280px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
+}
+.skills-left .technical .coding-skills-bar .js {
+    width: 20px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
+}
+.skills-left .technical .coding-skills-bar .uiux {
+    width: 320px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
 }
