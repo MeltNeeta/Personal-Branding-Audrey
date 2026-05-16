@@ -84,14 +84,14 @@ header {
 
 .homepage {
     background-color: var(--red);
-    min-height: 800px;
+    max-height: 1000px;
     display: flex;
 }
 
 .hola {
     display: flex;
     flex-direction: column;
-    padding: 100px 100px;
+    padding: 75px 100px;
     font-family: "League Gothic", sans-serif;
 }
 
@@ -136,18 +136,174 @@ header {
     margin-top: -200px;
 }
 
-.passion-icon {
+.first-pic .passion-icon {
+    margin-top: -100px;
+    display: flex;
     color: var(--black);
     background-color: var(--orange);
     width: fit-content;
+    border-radius: 50px;
+    justify-self: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.code-icon {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.paintbrush-icon{
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.code-icon :hover {
+    color: var(--bright-yellow);
+}
+
+.paintbrush-icon :hover {
+    color: var(--bright-yellow);
 }
 
 .homepage .first-pic img {
     height: 350px;
     width: 350px;
-    padding: 150px 50px;
+    padding: 130px 50px;
     border-radius: 100%;
 }
 
 /* About Me */
 
+.about-me {
+    background-color: var(--white2);
+    max-height: 700px;
+    display: flex;
+}
+
+.aboutme-left {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    margin-top: -50px;
+}
+
+.aboutme-left .aboutme-title {
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.aboutme-left .aboutme-desc {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.aboutme-right {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.aboutme-right .mephoto {
+    margin-top: 100px;
+    padding: 10px;
+    background-color: var(--orange);
+    box-shadow: 10px 10px 0px 1px var(--red);
+}
+
+.aboutme-right .from {
+    justify-items: left;
+    z-index: 2;
+    margin-top: -250px;
+}
+
+.aboutme-right .from h5 {
+    color: var(--black);
+    background-color: var(--orange);
+    border-radius: 20px 0px 0px 20px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 5px 30px;
+    margin-left: 185px;
+    box-shadow: 2px 2px 0px 1px var(--red);
+}
+
+.aboutme-right .date {
+    justify-items: center;
+    z-index: 2;
+    margin-top: -50px;
+}
+
+.aboutme-right .date h5 {
+    color: var(--black);
+    background-color: var(--red);
+    border-radius: 20px 0px 0px 20px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 5px 30px;
+    margin-left: 105px;
+    min-width: 150px;
+    box-shadow: 2px 2px 0px 1px var(--orange);
+}
+
+.aboutme-right .social ul {
+    padding: 10px 30px;
+    background-color: var(--black);
+    list-style-type: none;
+}
+
+.aboutme-right .social ul h5 {
+    color: var(--black);
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: -10px;
+    font-family: "League Gothic", sans-serif;
+    background-color: var(--orange);
+    padding: 5px 5px;
+}
+
+.aboutme-right .social ul li {
+    color: var(--white1);
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;;
+}
+
+.aboutme-left .aboutme-interest h3 {
+    margin-top: 100px;
+    justify-self: center;
+    color: var(--black);
+    background-color: var(--orange);
+    border-radius: 50px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.aboutme-left .aboutme-interest .interest {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.aboutme-left .aboutme-interest h4 {
+    justify-self: center;
+    color: var(--orange);
+    background-color: var(--black);
+    border-radius: 50px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    width: 150px;
+}
