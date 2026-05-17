@@ -208,7 +208,7 @@ header {
     color: var(--white2);
     -webkit-text-stroke: 4px var(--gray-red);
     margin-top: -100px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .aboutme-left .aboutme-desc {
