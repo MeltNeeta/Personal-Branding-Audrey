@@ -180,7 +180,7 @@ header {
 
 .about-me {
     background-color: var(--white2);
-    max-height: 700px;
+    max-height: 675px;
     display: flex;
     z-index: 2;
 }
@@ -192,15 +192,28 @@ header {
     margin-top: -50px;
 }
 
-.aboutme-left .aboutme-title {
+.aboutme-left .aboutme-title h1 {
     font-family: "League Gothic", sans-serif;
-    font-size: 50px;
+    font-size: 100px;
     font-weight: 200;
     text-decoration: underline;
+    margin-bottom: 75px;
+}
+
+.aboutme-left .aboutme-title h2 {
+    z-index: -2;
+    font-family: "League Gothic", sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    color: var(--white2);
+    -webkit-text-stroke: 4px var(--gray-red);
+    margin-top: -100px;
+    opacity: 0.5;
 }
 
 .aboutme-left .aboutme-desc {
-    margin: -30px 0px -30px 0px;
+    z-index: 0;
+    margin: -250px 0px -30px 0px;
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 500;
     font-size: 17px;
@@ -286,7 +299,7 @@ header {
     background-color: var(--orange);
     border-radius: 50px;
     font-family: "League Gothic", sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     padding: 5px 20px;
     text-align: center;
     width: 150px;
@@ -306,9 +319,9 @@ header {
     background-color: var(--black);
     border-radius: 50px;
     font-family: "League Gothic", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-align: center;
     width: 150px;
 }
@@ -330,7 +343,7 @@ header {
 .skills-left .interest {
     justify-items: center;
     margin-left: 40px;
-    margin-top: -60px;
+    margin-top: -40px;
 }
 
 .skills-left .interest .interest-row {
@@ -338,7 +351,7 @@ header {
     flex-direction: row;
     gap: 40px;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: -30px;
 }
 
 .skills-left .interest .interest-row h4 {
@@ -347,9 +360,9 @@ header {
     background-color: var(--black);
     border-radius: 50px;
     font-family: "League Gothic", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: lighter;
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-align: center;
     width: 150px;
 }
@@ -463,9 +476,11 @@ header {
     padding: 5px;
     width: 50px;
     height: 50px;
+    box-shadow: 5px 5px 0px 1px var(--orange);
 }
 
 .skills-left .technical {
+    margin-top: -50px;
     display: flex;
     flex-direction: column;
 }
@@ -482,6 +497,7 @@ header {
     justify-self: left;
 }
 
+/*coding skills*/
 .skills-left .technical .coding {
     display: flex;
     flex-direction: row;
@@ -510,8 +526,8 @@ header {
 }
 
 .skills-left .technical .coding-skills-bar {
-    margin-top: 10px;
-    margin-left: 25px;
+    margin-top: 0px;
+    margin-left: 75px;
 }
 
 .skills-left .technical .coding-skills-bar .html {
@@ -537,4 +553,131 @@ header {
     height: 20px;
     background-color: var(--orange);
     margin-top: 15px;
+}
+
+/*art skills*/
+.skills-left .technical .art {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-left .technical .art h2 {
+    color: var(--white1);
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+.skills-left .technical .art .art-skills {
+    color: var(--white1);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+.skills-left .technical .art .art-skills ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.skills-left .technical .art-skills-bar {
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.skills-left .technical .art-skills-bar .anatomy {
+    width: 90px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 32px;
+}
+.skills-left .technical .art-skills-bar .color {
+    width: 280px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
+}
+.skills-left .technical .art-skills-bar .perspective {
+    width: 50px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
+}
+.skills-left .technical .art-skills-bar .style {
+    width: 320px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
+}
+
+.skills-left .technical .art-skills-bar .vid-editor {
+    width: 250px;
+    height: 20px;
+    background-color: var(--orange);
+    margin-top: 15px;
+}
+
+/*soft skills*/
+.skills-right .soft-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: -300px;
+    margin-top: -100px;
+}
+
+.skills-right .soft-skill h1 {
+    color: var(--red);
+    background-color: var(--white1);
+    padding: 1px 30px;
+    font-family: "League Gothic", sans-serif;
+    font-size: 50px;
+}
+
+.skills-right .soft-skill .softskills {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+.skills-right .soft-skill .icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-right .soft-skill .icon ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.skills-right .soft-skill .icon span {
+    font-size: 50px;
+    color: var(--bright-yellow);
+    background-color: var(--red);
+    box-shadow: 2px 2px 0px 1px var(--black);
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.skills-right .soft-skill .soft-skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.skills-right .soft-skill .soft-skills ul li {
+    list-style: none;
+    font-family: "League Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    background-color: var(--black);
+    color: var(--orange);
+    text-align: center;
+    width: 250px;
+    padding: 7px 0px;
+    border-radius: 50px 0px 0px 50px;
+    margin-top: 25px;
 }
