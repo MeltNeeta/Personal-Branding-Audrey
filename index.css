@@ -87,7 +87,7 @@ header {
 
 .homepage {
     background-color: var(--red);
-    max-height: 1000px;
+    max-height: 750px;
     display: flex;
 }
 
@@ -680,4 +680,96 @@ header {
     padding: 7px 0px;
     border-radius: 50px 0px 0px 50px;
     margin-top: 25px;
+}
+
+/*footer*/
+
+.footer .upper {
+    background-color: var(--bright-yellow);
+    height: 175px;
+    width: 100%;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .upper .logo img {
+    height: 175px;
+    width: 175px;
+    margin-left: -250px;
+    display: flex;
+}
+
+.footer .upper .separator {
+    height: 125px;
+    width: 3px;
+    background-color: var(--red);
+    border-radius: 100px;
+    align-self: center;
+    margin: 0px 100px 0px -50px;
+}
+
+.footer .upper .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.footer .upper .contact .contact-view {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer .upper .contact .contact-view .contact-me a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--bright-yellow);
+    background-color: var(--red);
+    padding: 2px 50px;
+    border-radius: 50px;
+}
+
+.footer .upper .contact .contact-view .view-work a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--bright-yellow);
+    background-color: var(--red);
+    padding: 2px 50px;
+    border-radius: 50px;
+}
+
+.footer .upper .contact .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer .upper .contact .socials ul {
+    margin-top: 20px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.footer .upper .contact .socials ul li {
+    padding: 20px;
+    color: var(--red);
+    font-size: 25px;
+}
+
+.footer .under {
+    background-color: var(--black);
+    height: 50px;
+    width: 100%;
+    color: var(--bright-yellow);
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    font-family: "Arimo", sans-serif;
 }
