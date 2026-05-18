@@ -1,0 +1,185 @@
+:root{
+    --bright-yellow: #f2edd8;
+    --black: #160303;
+    --orange: #ff9900;
+    --white1: #fffcfc;
+    --white2: #fff6f5;
+    --gray-red: #bc837c;
+    --red: #c03d3d;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*header*/
+
+header {
+    position: fixed;
+    min-width: 1080;
+    max-height: 70px;
+    background-color: var(--red);
+    z-index: 100;
+}
+
+.navigasi {
+    display: flex;
+    min-width: 2000px;
+}
+
+.navigasi .logo {
+    margin-top: -15px;
+    padding: 0px;
+    margin-left: 50px;
+    color: var(--white1);
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    display: flex;
+}
+
+.navigasi .logo img {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.navigasi .logo a {
+    color: var(--white1);
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.navigasi .nav-link {
+    margin-left: 200px;
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    font-family: "League Gothic", sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.navigasi .nav-link a{
+    color: var(--white1);
+    text-decoration: none;
+    justify-items: center;
+  text-decoration: none;  
+  color: var(--white1);
+  padding: 5px 30px;      /* (Atas-Bawah Kiri-Kanan) */
+  margin-right: 30px;
+  transition-duration: 0.2s;
+}
+
+.navigasi .nav-link a:hover {
+    color: var(--red);
+    background-color: var(--bright-yellow);
+    border-radius: 15px;
+}
+
+/*cv*/
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer .upper {
+    background-color: var(--bright-yellow);
+    height: 175px;
+    width: 100%;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .upper .logo img {
+    height: 175px;
+    width: 175px;
+    margin-left: -250px;
+    display: flex;
+}
+
+.footer .upper .separator {
+    height: 125px;
+    width: 3px;
+    background-color: var(--red);
+    border-radius: 100px;
+    align-self: center;
+    margin: 0px 100px 0px -50px;
+}
+
+.footer .upper .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.footer .upper .contact .contact-view {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer .upper .contact .contact-view .contact-me a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--bright-yellow);
+    background-color: var(--red);
+    padding: 2px 50px;
+    border-radius: 50px;
+}
+
+.footer .upper .contact .contact-view .view-work a {
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--bright-yellow);
+    background-color: var(--red);
+    padding: 2px 50px;
+    border-radius: 50px;
+}
+
+.footer .upper .contact .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer .upper .contact .socials ul {
+    margin-top: 20px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.footer .upper .contact .socials ul li {
+    padding: 20px;
+    color: var(--red);
+    font-size: 25px;
+}
+
+.footer .under {
+    background-color: var(--black);
+    height: 50px;
+    width: 100%;
+    color: var(--bright-yellow);
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    font-family: "Arimo", sans-serif;
+}
