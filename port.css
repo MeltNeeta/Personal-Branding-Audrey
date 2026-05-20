@@ -118,6 +118,10 @@ header {
     gap: 100px;
 }
 
+.portfolio .body .menu a {
+    text-decoration: none;
+}
+
 .portfolio .body .menu h2 {
     font-family: "League Gothic", sans-serif;
     color: var(--white1);
