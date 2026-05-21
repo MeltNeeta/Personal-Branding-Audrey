@@ -244,17 +244,6 @@ header {
     margin-top: -20px;
 }
 
-.cv .body .left .mini-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 50px;
-}
-.cv .body .left .mini-me img {
-    width: 150px;
-    height: 150px;
-}
-
 
 /*right*/
 
