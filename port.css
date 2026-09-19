@@ -147,6 +147,7 @@ header {
     flex-direction: row;
     align-self: center;
     gap: 30px;
+    margin-bottom: 25px;
 }
 
 .portfolio .body .medias .web-media .container-web {
