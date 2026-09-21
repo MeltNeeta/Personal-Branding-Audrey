@@ -126,7 +126,7 @@ header {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
-    margin-left: -20px;
+    margin-left: -40px;
 }
 
 .cv .body .left .detail .logo ul li {
@@ -277,10 +277,10 @@ header {
 }
 
 .cv .body .right h3 {
-    margin-top: 20px;
+    margin-top: 35px;
     font-family: "Roboto", sans-serif;
     color: var(--bright-yellow);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     line-height: 1;
     letter-spacing: 1.5px;
@@ -302,7 +302,7 @@ header {
 
 .cv .body .right .about-me h4 {
     color: var(--black);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "League Gothic", sans-serif;
     font-weight: 400;
     margin-top: 10px;
@@ -324,7 +324,7 @@ header {
 
 .cv .body .right .projects h4 {
     color: var(--black);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "League Gothic", sans-serif;
     font-weight: 400;
     margin-top: 10px;
@@ -350,7 +350,7 @@ header {
 
 .cv .body .right .organization h4 {
     color: var(--black);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "League Gothic", sans-serif;
     font-weight: 400;
     margin-top: 10px;
@@ -394,7 +394,7 @@ header {
 
 .cv .body .right .skill .technical h4 {
     color: var(--black);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "League Gothic", sans-serif;
     font-weight: 400;
     margin-top: 10px;
@@ -459,7 +459,7 @@ header {
 /*software*/
 .cv .body .right .skill .software h4 {
     color: var(--black);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "League Gothic", sans-serif;
     font-weight: 400;
     margin-top: 10px;
