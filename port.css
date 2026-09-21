@@ -149,7 +149,6 @@ header {
     gap: 30px;
     margin-bottom: 25px;
 }
-
 .portfolio .body .medias .web-media .container-web {
     width: 400px;
     height: 380px;
@@ -157,7 +156,6 @@ header {
     box-shadow: 4px 4px 0px 6px var(--bright-yellow);
     align-content: center;
 }
-
 .portfolio .body .medias .web-media .container-web img {
     margin-top: -10px;
     width: 360px;
@@ -167,14 +165,12 @@ header {
     flex-direction: row;
     justify-self: center;
 }
-
 .portfolio .body .medias .web-media .container-web h3 {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
     justify-self: center;
     color: var(--white1);
 }
-
 .portfolio .body .medias .web-media .container-web h4 {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -182,7 +178,6 @@ header {
     color: var(--white1);
     margin-top: -20px;
 }
-
 .portfolio .body .medias .web-media .container-web p {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -192,6 +187,50 @@ header {
     color: var(--bright-yellow);
 }
 
+.portfolio .body .medias .sertification-media {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.portfolio .body .medias .sertification-media .container-web {
+    width: 400px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px 6px var(--bright-yellow);
+    align-content: center;
+}
+.portfolio .body .medias .sertification-media .container-web img {
+    margin-top: -10px;
+    width: 360px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+.portfolio .body .medias .sertification-media .container-web h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    justify-self: center;
+    color: var(--white1);
+}
+.portfolio .body .medias .sertification-media .container-web h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    justify-self: center;
+    color: var(--white1);
+    margin-top: -20px;
+}
+.portfolio .body .medias .sertification-media .container-web p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    justify-self: center;
+    color: var(--bright-yellow);
+}
 
 .portfolio .body .medias .art-media {
     display: flex;
@@ -200,7 +239,6 @@ header {
     gap: 40px;
     margin-top: 30px;
 }
-
 .portfolio .body .medias .art-media .container-art-rec {
     width: 250px;
     height: 380px;
@@ -208,7 +246,6 @@ header {
     box-shadow: 4px 4px 0px 6px var(--bright-yellow);
     align-content: center;
 }
-
 .portfolio .body .medias .art-media .container-art-rec img {
     margin-top: 10px;
     width: 210px;
@@ -218,14 +255,12 @@ header {
     flex-direction: row;
     justify-self: center;
 }
-
 .portfolio .body .medias .art-media .container-art-rec h3 {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
     justify-self: center;
     color: var(--white1);
 }
-
 .portfolio .body .medias .art-media .container-art-squ {
     width: 250px;
     height: 320px;
@@ -233,7 +268,6 @@ header {
     box-shadow: 4px 4px 0px 6px var(--bright-yellow);
     align-content: center;
 }
-
 .portfolio .body .medias .art-media .container-art-squ img {
     margin-top: 10px;
     width: 210px;
@@ -243,7 +277,6 @@ header {
     flex-direction: row;
     justify-self: center;
 }
-
 .portfolio .body .medias .art-media .container-art-squ h3 {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
